@@ -8,10 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		0B4DAAC71E0497BC00ECDBF9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DAAC61E0497BC00ECDBF9 /* RxCocoa.framework */; };
-		0B4DAAC81E04980000ECDBF9 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DAAC61E0497BC00ECDBF9 /* RxCocoa.framework */; };
 		0B4DAAC91E04980000ECDBF9 /* RxCocoa.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DAAC61E0497BC00ECDBF9 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		98655E35204F885800524A64 /* RxSwift.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98655E34204F885800524A64 /* RxSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		98655E37204F88A800524A64 /* RxCocoa.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98655E36204F88A800524A64 /* RxCocoa.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		8FC0F5CF243F20E7002CA322 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B4DAAC61E0497BC00ECDBF9 /* RxCocoa.framework */; };
+		8FC0F5D0243F20EA002CA322 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42144A21CFF275E00885498 /* RxSwift.framework */; };
+		8FC0F5D1243F20F6002CA322 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42144A31CFF275E00885498 /* Starscream.framework */; };
 		98655E39204F88BD00524A64 /* Starscream.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98655E38204F88BD00524A64 /* Starscream.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98655E3B204F88D600524A64 /* RxTest.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98655E3A204F88D600524A64 /* RxTest.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		98655E3C204F892000524A64 /* RxStarscream_macOS.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 98D95A3F204F7E9A00159C45 /* RxStarscream_macOS.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
@@ -46,8 +46,6 @@
 		E42144E41CFF385E00885498 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E42144E31CFF385E00885498 /* Assets.xcassets */; };
 		E42144E71CFF385E00885498 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E42144E51CFF385E00885498 /* LaunchScreen.storyboard */; };
 		E42144EC1CFF395500885498 /* RxStarscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D00311CFF22760054DF1F /* RxStarscream.swift */; };
-		E42144ED1CFF3AC600885498 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42144A21CFF275E00885498 /* RxSwift.framework */; };
-		E42144EE1CFF3AC900885498 /* Starscream.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E42144A31CFF275E00885498 /* Starscream.framework */; };
 		E46D002A1CFF22200054DF1F /* RxStarscream.h in Headers */ = {isa = PBXBuildFile; fileRef = E46D00291CFF22200054DF1F /* RxStarscream.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E46D00321CFF22760054DF1F /* RxStarscream.swift in Sources */ = {isa = PBXBuildFile; fileRef = E46D00311CFF22760054DF1F /* RxStarscream.swift */; };
 /* End PBXBuildFile section */
@@ -79,8 +77,6 @@
 				98655E3C204F892000524A64 /* RxStarscream_macOS.framework in CopyFiles */,
 				98655E3B204F88D600524A64 /* RxTest.framework in CopyFiles */,
 				98655E39204F88BD00524A64 /* Starscream.framework in CopyFiles */,
-				98655E37204F88A800524A64 /* RxCocoa.framework in CopyFiles */,
-				98655E35204F885800524A64 /* RxSwift.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,8 +111,6 @@
 
 /* Begin PBXFileReference section */
 		0B4DAAC61E0497BC00ECDBF9 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
-		98655E34204F885800524A64 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/Mac/RxSwift.framework; sourceTree = "<group>"; };
-		98655E36204F88A800524A64 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/Mac/RxCocoa.framework; sourceTree = "<group>"; };
 		98655E38204F88BD00524A64 /* Starscream.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Starscream.framework; path = Carthage/Build/Mac/Starscream.framework; sourceTree = "<group>"; };
 		98655E3A204F88D600524A64 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/Mac/RxTest.framework; sourceTree = "<group>"; };
 		98D95A3F204F7E9A00159C45 /* RxStarscream_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RxStarscream_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -188,9 +182,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E42144ED1CFF3AC600885498 /* RxSwift.framework in Frameworks */,
-				E42144EE1CFF3AC900885498 /* Starscream.framework in Frameworks */,
-				0B4DAAC81E04980000ECDBF9 /* RxCocoa.framework in Frameworks */,
+				8FC0F5CF243F20E7002CA322 /* RxCocoa.framework in Frameworks */,
+				8FC0F5D0243F20EA002CA322 /* RxSwift.framework in Frameworks */,
+				8FC0F5D1243F20F6002CA322 /* Starscream.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +270,6 @@
 			children = (
 				98655E3A204F88D600524A64 /* RxTest.framework */,
 				98655E38204F88BD00524A64 /* Starscream.framework */,
-				98655E36204F88A800524A64 /* RxCocoa.framework */,
-				98655E34204F885800524A64 /* RxSwift.framework */,
 				E46D00281CFF22200054DF1F /* RxStarscream */,
 				E42144DB1CFF385E00885498 /* SampleApp */,
 				BEF314411E86D13C00C15DD4 /* RxStarscreamTests */,
@@ -468,6 +460,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
